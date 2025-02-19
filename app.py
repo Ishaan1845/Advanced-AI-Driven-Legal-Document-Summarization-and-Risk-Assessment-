@@ -121,7 +121,14 @@ if st.button("Summarize"):
             
             print("FINAL SUMMARY ", final_summary)
             container.write(final_summary)
-            
+
+            # Download file
+            st.download_button(
+                label="Download Final Summary",
+                data=final_summary,
+                file_name="final_summary.txt",
+                mime="text/plain"
+            )
             
         except Exception as e:
             print("error creating final summary",e)
