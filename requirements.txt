@@ -6,3 +6,10 @@ langchain-openai
 pypdf
 python-dotenv
 streamlit
+fpdf
+sentence-transformers
+huggingface_hub
+faiss-cpu
+torch
+plotly
+matplotlib
