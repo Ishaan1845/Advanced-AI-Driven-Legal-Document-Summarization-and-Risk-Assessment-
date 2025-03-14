@@ -35,3 +35,4 @@
 6) After all the functionalities are setup, deploy the model on hugging face.
 
 
+### ------------------------------------------------COMPLETION OF PROJECT-----------------------------------------------
